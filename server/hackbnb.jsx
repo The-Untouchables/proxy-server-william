@@ -18,8 +18,8 @@ class HackBnB extends React.Component {
         </div>
         <script src="/lib/react.development.js"></script>
         <script src="/lib/react-dom.development.js"></script>
-        <script src="http://localhost:3004/bundle.js"></script>
-        <script src="http://localhost:3002/app-description.bundle.js"></script>
+        <script src="http://18.219.35.229:80/bundle.js"></script>
+        <script src="http://18.222.4.195:80/app-description.bundle.js"></script>
         <script src="http://localhost:3006/bundle.js"></script>
      </div>
     );

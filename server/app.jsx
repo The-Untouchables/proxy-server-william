@@ -15,15 +15,15 @@ app.get('/rooms/:roomid', (req, res) => {
 });
 
 app.get('/rooms/:roomid/ratings', (req, res) => {
-  res.redirect('http://localhost:3004/rooms/' + req.params.roomid + '/ratings');
+  res.redirect('http://18.219.35.229:80/rooms/' + req.params.roomid + '/ratings');
 });
 
 app.get('/rooms/:roomid/reviews', (req, res) => {
-  res.redirect('http://localhost:3004/rooms/' + req.params.roomid + '/reviews');
+  res.redirect('http://18.219.35.229:80/rooms/' + req.params.roomid + '/reviews');
 });
 
 app.get('/api/rooms/:roomid/description', (req, res) => {
-  res.redirect('http://localhost:3002/rooms/' + req.params.roomid + '/description');
+  res.redirect('http://18.222.4.195:80/rooms/' + req.params.roomid + '/description');
 });
 
 module.exports = app;

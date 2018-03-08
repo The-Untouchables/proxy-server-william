@@ -8,7 +8,8 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "start": "node ./server/index.js"
+    "start": "node ./dist/server.js",
+    "react-dev": "webpack -d --watch"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
