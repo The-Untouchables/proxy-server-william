@@ -24,10 +24,6 @@
   width: 571.188px;
 }
 
-.reviews-rating-cell {
-  width: 20px !important;
-}
-
 .left-col {
   display: flex;
   flex-direction: column;

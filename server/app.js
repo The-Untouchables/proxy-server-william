@@ -17,4 +17,8 @@ app.get('/api/rooms/:roomid/description', (req, res) => {
   res.redirect('http://18.222.4.195:80/api/rooms/' + req.params.roomid + '/description');
 });
 
+app.get('/api/rooms/:roomid/carousel', (req, res) => {
+  res.redirect('http://18.222.4.195:3001/api/rooms/' + req.params.roomid + '/carousel');
+});
+
 module.exports = app;
