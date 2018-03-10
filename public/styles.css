@@ -3,10 +3,14 @@
   display: flex;
 }
 
-.bookings {
+#bookings-service {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+}
+
+.bookings-app-container {
+  width: 376px !important;
 }
 
 #neighborhood {
